@@ -2,11 +2,11 @@
 	font-family: 'codropsicons';
 	font-weight: normal;
 	font-style: normal;
-	src: 	url('../fonts/codropsicons/codropsicons.eot');
-	src: 	url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), 
-			url('../fonts/codropsicons/codropsicons.woff') format('woff'), 
-			url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), 
-			url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	src: 	url('../fonts/icons/codropsicons.eot');
+	src: 	url('../fonts/icons/codropsicons.eot?#iefix') format('embedded-opentype'), 
+			url('../fonts/icons/codropsicons.woff') format('woff'), 
+			url('../fonts/icons/codropsicons.ttf') format('truetype'), 
+			url('../fonts/icons/codropsicons.svg#codropsicons') format('svg');
 }
 
 *,
@@ -18,13 +18,25 @@
 
 
 /*
- * === General Demo Styles ===
+Keyboard Legend info.*/
+/*
+
+/*
+ Forked and modified  by @stanwmusic https://github.com/stanwmusic 
+ 
  */
+ 
+ .responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* end keyboard Legend information .  */
 
 body {
 	font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #2d2e36;
-	background: #c2ccd4;
+	background: #cz2ccd3;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -513,8 +525,14 @@ input[type=number]::-webkit-outer-spin-button {
 		bottom: 0;
 		padding: 1em;
 	}
+	.footer-about {
+		
+	}
+	
+	
 	.codrops-header {
 		padding: 0.5em;
 		font-size: 90%;
+		font-color:ff0000
 	}
 }
